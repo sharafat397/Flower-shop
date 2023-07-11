@@ -255,10 +255,38 @@ line-height: normal;
     margin-top: 20px;
   }
   .id{
-    height: 120px;
+    height: 160px;
     width: 150px;
+    border-radius: 50%;
+    margin-left: 40px;
+    
+
   }
   .parent-review{
     display: flex;
     gap: 10%;
+  }
+  .parent-review{
+    margin-top: 40px;
+  }
+  .review{
+    align-items: center;
+    justify-content: center;
+    margin-left: 6%;
+    background-color:#D7C9BC;
+    height: 400px;
+    width: 300px;
+    padding-left: 30px;
+  }
+  .see-btn{
+    border-radius: 8px;
+  background: #ff4400;
+  color: #000000;
+  border: none;
+  padding: 10px 23px 10px 23px;
+  margin-top: 32px;
+  margin-left: 840px;
+  margin-bottom: 120px;}
+  .see-btn:hover{
+    background-color: rgb(246, 238, 6);
   }
